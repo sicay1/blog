@@ -1,0 +1,16 @@
+author:
+  name: Tony Truong
+  email: dacton.truong@gmail.com
+  title: Gamer & Plumber
+  github: https://github.com/sicay1
+  description: Code - Play - Fix - Learn
+description: >-  
+  A simple Jekyll blog scaffolded for local development.
+footer_text: "2025 Tony Truong - ❤️ Jekyll."
+baseurl: ""
+url: "http://localhost:4000"
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
