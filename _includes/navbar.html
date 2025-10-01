@@ -3,8 +3,8 @@
     <h2>{{ site.author.name }}</h2>
   </div>
   <div class="nav-links">
-    <a href="./" {% if page.url == "./" %}class="active"{% endif %}>Home</a>
-    <a href="./blog" {% if page.url == "./blog" %}class="active"{% endif %}>Blog</a>
+    <a href="{{ site.baseurl }}" {% if page.url == "{{ site.baseurl }}" %}class="active"{% endif %}>Home</a>
+    <a href="{{ site.baseurl }}/blog" {% if page.url == "{{ site.baseurl }}/blog" %}class="active"{% endif %}>Blog</a>
     <a href="#" class="nav-contact">Contact</a>
   </div>
 </nav>
