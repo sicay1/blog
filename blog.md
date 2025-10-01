@@ -8,7 +8,7 @@ title: Blog
     {% for post in site.posts %}
     <article class="post">
       {% if post.thumbnail %}
-      <div class="post-thumbnail" style="background-image: url('.{{ post.thumbnail }}')"></div>
+      <div class="post-thumbnail" style="background-image: url('{{ post.thumbnail }}')"></div>
       {% endif %}
       <div class="post-content">
         <h2 class="post-title">
