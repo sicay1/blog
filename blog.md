@@ -8,11 +8,11 @@ title: Blog
     {% for post in site.posts %}
     <article class="post">
       {% if post.thumbnail %}
-      <div class="post-thumbnail" style="background-image: url('{{ post.thumbnail }}')"></div>
+      <div class="post-thumbnail" style="background-image: url('.{{ post.thumbnail }}')"></div>
       {% endif %}
       <div class="post-content">
         <h2 class="post-title">
-          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+          <a href=".{{ post.url }}">{{ post.title }}</a>
         </h2>
         <div class="post-meta">
           <span>{{ post.date | date: "%B %d, %Y" }}</span>
