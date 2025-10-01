@@ -12,7 +12,7 @@ title: Blog
       {% endif %}
       <div class="post-content">
         <h2 class="post-title">
-          <a href=".{{ post.url }}">{{ post.title }}</a>
+          <a href="{{ post.url }}">{{ post.title }}</a>
         </h2>
         <div class="post-meta">
           <span>{{ post.date | date: "%B %d, %Y" }}</span>
@@ -28,7 +28,7 @@ title: Blog
     {% endfor %}
   </main>
 
-  <a href="{{ site.baseurl }}" class="back-home">
+  <a href="{{ site.baseurl }}/" class="back-home">
     <span class="back-arrow">←</span>
     Back to Home
   </a>

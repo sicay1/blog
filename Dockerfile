@@ -23,4 +23,4 @@ COPY . .
 EXPOSE 4000
 
 # Serve the site
-CMD ["bundle", "exec", "jekyll", "serve", "--host", "0.0.0.0", "--quiet"]
+CMD ["bundle", "exec", "jekyll", "serve", "--host", "0.0.0.0", "--quiet", "--config", "_config_local.yml"]
