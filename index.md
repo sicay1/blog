@@ -4,7 +4,7 @@ layout: home
 
 <div class="minimal-landing">
   <video autoplay muted loop id="bgVideo" playsinline>
-    <source src="/assets/video-bg.mp4" type="video/mp4">
+    <source src="{{ site.baseurl }}/assets/video-bg.mp4" type="video/mp4">
   </video>
   
   <div class="content-wrapper">
@@ -14,7 +14,7 @@ layout: home
       <p class="description">Exploring the intersection of technology and creativity through thoughtful code, innovative solutions, and continuous learning.</p>
       <p class="description">{{ site.author.description }}</p>
       <div class="cta-container">
-        <a href="/blog" class="primary-cta">My Blog</a>
+        <a href="{{ site.baseurl }}/blog" class="primary-cta">My Blog</a>
         <a href="{{ site.author.github }}" class="secondary-cta">About Me</a>
       </div>
     </div>
