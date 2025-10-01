@@ -3,7 +3,7 @@ layout: post
 title: "Optimizing video size with FFmpeg for better web performance"
 date: 2025-09-28
 category: Web
-thumbnail: assets/images/posts/ffmpeg-reduce-video-size.png
+thumbnail: /assets/images/posts/ffmpeg-reduce-video-size.png
 excerpt: Learn how to optimize video files for web performance using FFmpeg, reducing file size while maintaining quality for better loading times.
 ---
 

@@ -8,7 +8,7 @@ description: >-
   A simple Jekyll blog scaffolded for local development.
 footer_text: "2025 Tony Truong - ❤️ Jekyll."
 # baseurl: "/blog"
-# url: "http://localhost:4000"
+url: "https://sicay1.github.io/blog"
 
 # Build settings
 theme: minima
