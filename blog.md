@@ -28,7 +28,7 @@ title: Blog
     {% endfor %}
   </main>
 
-  <a href="{{ site.url }}" class="back-home">
+  <a href="{{ site.baseurl }}" class="back-home">
     <span class="back-arrow">←</span>
     Back to Home
   </a>
