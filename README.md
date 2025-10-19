@@ -7,7 +7,7 @@ This is a simple Jekyll blog project scaffolded for local development.
 ### Container - build and run
 
 ```bash
-podman build -t localhost/my-jekyll-blog . && podman run --rm -p 4000:4000 localhost/my-jekyll-blog
+podman build --no-cache -t localhost/my-jekyll-blog . && podman run --rm -p 4000:4000 localhost/my-jekyll-blog
 ```
 
 ### Local setup

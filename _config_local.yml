@@ -14,3 +14,4 @@ url: "http://localhost:4000"
 theme: minima
 plugins:
   - jekyll-feed
+future: true
