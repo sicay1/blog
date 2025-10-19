@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Hệ thống cảnh báo khẩn cấp không dây tại UAE - Trải nghiệm thực tế tại Gitex 2025"
+title: "Hệ thống cảnh báo khẩn cấp cho thiết bị di động tại UAE - tại sự kiện Gitex 2025"
 date: 2025-10-19
 categories: [technology, uae, emergency-alert]
 thumbnail: /assets/images/posts/gitex.png
-excerpt: Khám phá hệ thống cảnh báo khẩn cấp không dây của UAE qua trải nghiệm thực tế trong tuần triển lãm Gitex 2025 tại Dubai.
+excerpt: Khám phá hệ thống cảnh báo khẩn cấp thiết bị di động của UAE qua trải nghiệm thực tế trong tuần triển lãm Gitex 2025 tại Dubai.
 ---
 
 Tuần này Dubai đang diễn ra triển lãm Gitex 2025, một sự kiện công nghệ lớn được tổ chức tại World Trade Center. Mặc dù hông tham gia, nhưng tất cả mọi người trong công ty đều nhận được một thông báo đặc biệt từ hệ thống cảnh báo khẩn cấp của UAE. 
@@ -16,10 +16,10 @@ Tuần này Dubai đang diễn ra triển lãm Gitex 2025, một sự kiện cô
 Tất cả các thiết bị di động trong công ty đều nhận được thông báo cùng lúc, bao gồm cả Android và iPhone:
 
 **Thông báo trên Android:**
-![Android phone alert](/assets/images/posts/wifialert_android_screen_notify.jpg)
+![Android phone alert]({{ site.url }}/assets/images/posts/wifialert_android_screen_notify.png)
 
 **Thông báo trên iPhone:**
-![IOS phone alert](/assets/images/posts/wifialert_ios_screen_notify.png)
+![IOS phone alert]({{ site.url }}/assets/images/posts/wifialert_ios_screen_notify.png)
 
 ### Nguồn gốc thông báo từ đâu?
 
@@ -31,17 +31,17 @@ Ban đầu tôi nghĩ thông báo này đến từ SIM DU (nhà mạng địa ph
 
 Sau khi kiểm tra trong Settings, tôi phát hiện ra rằng iOS có sẵn tính năng này trong phần Notifications. Điều này có thể do Apple đã tích hợp sẵn cho các thiết bị bán tại UAE theo yêu cầu của chính phủ địa phương.
 
-![IOS Settings](/assets/images/posts/wifialert_ios_1.png)
-![IOS Notifications](/assets/images/posts/wifialert_ios_2.png)
+![IOS Settings]({{ site.url }}/assets/images/posts/wifialert_ios_1.png)
+![IOS Notifications]({{ site.url }}/assets/images/posts/wifialert_ios_2.png)
 
 ### Trên Android
 
 Tương tự, Android (máy mua tại Việt Nam) cũng có tính năng này trong phần Lock screen notification và Wireless Emergency Alerts:
 
-![Android Settings](/assets/images/posts/wifialert_android_1.jpg)
-![Android Screen Lock](/assets/images/posts/wifialert_android_2.jpg)
-![Android Wireless Emergency Alerts](/assets/images/posts/wifialert_android_3.jpg)
-![Android Emergency Alert History](/assets/images/posts/wifialert_android_4.jpg)
+![Android Settings]({{ site.url }}/assets/images/posts/wifialert_android_1.png)
+![Android Screen Lock]({{ site.url }}/assets/images/posts/wifialert_android_2.png)
+![Android Wireless Emergency Alerts]({{ site.url }}/assets/images/posts/wifialert_android_3.png)
+![Android Emergency Alert History]({{ site.url }}/assets/images/posts/wifialert_android_4.png)
 
 ## Tìm hiểu về hệ thống cảnh báo khẩn cấp UAE
 
