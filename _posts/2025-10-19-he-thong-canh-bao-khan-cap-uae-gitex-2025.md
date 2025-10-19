@@ -16,14 +16,17 @@ Tuần này Dubai đang diễn ra triển lãm Gitex 2025, một sự kiện cô
 Tất cả các thiết bị di động trong công ty đều nhận được thông báo cùng lúc, bao gồm cả Android và iPhone:
 
 **Thông báo trên Android:**
-![Android phone alert]({{ site.url }}/assets/images/posts/wifialert_android_screen_notify.png)
+
+<img src="{{ site.url }}/assets/images/posts/wifialert_android_screen_notify.png" alt="Android phone alert" width="300">
+
 
 **Thông báo trên iPhone:**
-![IOS phone alert]({{ site.url }}/assets/images/posts/wifialert_ios_screen_notify.png)
+
+<img src="{{ site.url }}/assets/images/posts/wifialert_ios_screen_notify.png" alt="IOS phone alert" width="300">
 
 ### Nguồn gốc thông báo từ đâu?
 
-Ban đầu tôi nghĩ thông báo này đến từ SIM DU (nhà mạng địa phương) qua đường PSTN, hoặc có thể từ các ứng dụng chính phủ UAE như UAE PASS hay MOHRE. Tuy nhiên, điều thú vị là chiếc iPhone công ty (chủ yếu dùng để test game) không có SIM card và cũng không cài đặt bất kỳ ứng dụng chính phủ nào, chỉ kết nối WiFi công ty, mà nhiều khi mình bật `Airplane` để tiết kiệm pin nữa. Vậy mà Iphone mình vẫn nhận được thông báo (không nhớ rõ là hôm đó có bật Airplane hông nữa :see_no_evil: ).
+Ban đầu tôi nghĩ thông báo này đến từ SIM DU (nhà mạng địa phương) qua đường PSTN, hoặc có thể từ các ứng dụng chính phủ UAE như UAE PASS hay MOHRE. Tuy nhiên, điều thú vị là chiếc iPhone công ty (chủ yếu dùng để test game) không có SIM card và cũng không cài đặt bất kỳ ứng dụng chính phủ nào, chỉ kết nối WiFi công ty, mà nhiều khi mình bật `Airplane` để tiết kiệm pin nữa. Vậy mà Iphone mình vẫn nhận được thông báo (không nhớ rõ là hôm đó có bật Airplane hông nữa 🥲 ).
 
 ## Cách thức hoạt động của hệ thống
 
@@ -31,17 +34,23 @@ Ban đầu tôi nghĩ thông báo này đến từ SIM DU (nhà mạng địa ph
 
 Sau khi kiểm tra trong Settings, tôi phát hiện ra rằng iOS có sẵn tính năng này trong phần Notifications. Điều này có thể do Apple đã tích hợp sẵn cho các thiết bị bán tại UAE theo yêu cầu của chính phủ địa phương.
 
-![IOS Settings]({{ site.url }}/assets/images/posts/wifialert_ios_1.png)
-![IOS Notifications]({{ site.url }}/assets/images/posts/wifialert_ios_2.png)
+<img src="{{ site.url }}/assets/images/posts/wifialert_ios_1.png" alt="IOS Settings" width="300">
+
+<img src="{{ site.url }}/assets/images/posts/wifialert_ios_2.png" alt="IOS Notifications" width="300">
+
 
 ### Trên Android
 
 Tương tự, Android (máy mua tại Việt Nam) cũng có tính năng này trong phần Lock screen notification và Wireless Emergency Alerts:
 
-![Android Settings]({{ site.url }}/assets/images/posts/wifialert_android_1.png)
-![Android Screen Lock]({{ site.url }}/assets/images/posts/wifialert_android_2.png)
-![Android Wireless Emergency Alerts]({{ site.url }}/assets/images/posts/wifialert_android_3.png)
-![Android Emergency Alert History]({{ site.url }}/assets/images/posts/wifialert_android_4.png)
+<img src="{{ site.url }}/assets/images/posts/wifialert_android_1.png" alt="Android Settings" width="300">
+
+<img src="{{ site.url }}/assets/images/posts/wifialert_android_2.png" alt="Android Screen Lock" width="300">
+
+<img src="{{ site.url }}/assets/images/posts/wifialert_android_3.png" alt="Android Wireless Emergency Alerts" width="300">
+
+<img src="{{ site.url }}/assets/images/posts/wifialert_android_4.png" alt="Android Emergency Alert History" width="300">
+
 
 ## Tìm hiểu về hệ thống cảnh báo khẩn cấp UAE
 
